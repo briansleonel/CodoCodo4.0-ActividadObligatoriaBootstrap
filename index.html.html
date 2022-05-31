@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Actividad Obligatoria 2</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <section class="container-fluid bg-light px-5 py-4">
+            <div class="row">
+                <form class="col-6 mx-auto">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstaName">Nombre</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="firstaName"
+                            />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName">Apellido</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="lastName"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="username"
+                            >Nombre de usuario</label
+                        >
+                        <div class="input-group mb-2 mr-sm-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="username"
+                                placeholder="Nombre de usuario"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <small id="email" class="text-muted">
+                            (Opcional)
+                        </small>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="you@example.com"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion1">Habla a</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="direccion1"
+                            placeholder="1234 Main St"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion2">Dirección 2</label>
+                        <small id="direccion2" class="text-muted">
+                            (Opcional)
+                        </small>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="direccion2"
+                            placeholder="Apartamento o suite"
+                        />
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="pais">País</label>
+                            <select id="pais" class="form-control">
+                                <option selected>Escoger...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="estado">Estado</label>
+                            <select id="estado" class="form-control">
+                                <option selected>Escoger...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="codigoPostal">Código Postal</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="codigoPostal"
+                            />
+                        </div>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="gridCheck"
+                            />
+                            <label class="form-check-label" for="gridCheck">
+                                La dirección de envío es la misma que mi
+                                dirección de facturación
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="gridCheck"
+                            />
+                            <label class="form-check-label" for="gridCheck">
+                                Guarde esta información para la próxima vez
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary my-3">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
